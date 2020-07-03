@@ -1,6 +1,6 @@
 <?php
 define('BUFSIZ', 4095);
-$url = 'http://download1.uploadpot.com/files/1/tpvzelt8eumew5/mantelit_103.rar';
+$url = 'http://your-file-url.com/file-name.zip';
 $rfile = fopen($url, 'r');
 $lfile = fopen(basename($url), 'w');
 while(!feof($rfile))
